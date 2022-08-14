@@ -1,0 +1,5 @@
+ MVI A, 07H
+ MVI B, 04H
+ SUB B
+ STA 0030H
+ HLT
